@@ -2,8 +2,8 @@
 session_start();
 $fullNameValue = "";
 $totalValue = "";
-$numberValue = ";
-$emailValue = ;
+$numberValue = "";
+$emailValue = "";
 
 /*
  * Creat a session variable for the mobile number
