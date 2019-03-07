@@ -13,16 +13,16 @@
         
         session_start();
         $totalValue = $_POST['txtTotal'];
-        $fullNameValue2 = $_POST['txtName'];
-        $numberValue2 = $_POST['txtNum'];
-        $emailValue2 = $_POST['txtemail'];
+        $fullNameValue = $_POST['txtName'];
+        $numberValue = $_POST['txtNum'];
+        $emailValue = $_POST['txtemail'];
         echo "The name is : ",$fullNameValue.".";
         echo "<br></br>";
-        echo "The number is : ",$numberValue2.".";
+        echo "The number is : ",$numberValue.".";
         echo "<br></br>";
-        echo "The E-mail is : ",$emailValue2.".";
+        echo "The E-mail is : ",$emailValue.".";
         echo "<br></br>";
-        echo "The total value is ".$totalValue2.".";
+        echo "The total value is ".$totalValue.".";
         ?>
     </body>
 </html>
