@@ -12,7 +12,7 @@ $totalValue = $_POST['txtTotal'];
 $_SESSION['txtName'] = $fullNameValue;
 $_SESSION['txtTotal'] = $totalValue;
 $_SESSION['txtNum'] = $numberValue;
-$_SESSION['txtemail'] = emailValue;
+$_SESSION['txtemail'] = $emailValue;
 
 
 /**
